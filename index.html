@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS UI challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+
+    <div class="auth-card">
+       <div class="image-part">
+         <img src="./img/login-vector.png" alt="vector image">
+       </div>
+       <div class="main-part">
+        <h1 class="text-center heading">
+          Sign in
+        </h1>
+
+        <div class="social-wrapper py-25">
+          <div class="social-btn flex-center cursor-pointer">
+            <img src="./img/google.svg" alt="google icon" width="18px">
+          </div>
+
+          <div class="social-btn mx-20 flex-center cursor-pointer">
+            <img src="./img/facebook.svg" alt="facebook icon" width="18px">
+          </div>
+
+          <div class="social-btn flex-center cursor-pointer">
+            <img src="./img/twitter.svg" alt="twitter icon" width="18px">
+          </div>
+        </div>
+
+        <div class="separator-wrapper flex-center mb-15">
+           <hr class="separator">
+           <p class="text-center">Or Sign in with Email</p>
+           <hr class="separator">
+        </div>
+
+        <div class="form-wrapper">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter Email" id="email">
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter Password" id="password">
+          </div>
+
+          <div class="form-extra">
+             <div class="check-wrapper flex-center">
+               <input type="checkbox" id="check" class="mr-10">
+               <label for="check">Keep me logged in</label>
+             </div>
+
+             <p class="secondary-class cursor-pointer">Forgot Password?</p>
+          </div>
+
+          <button class="primary-button my-35 cursor-pointer">Sign in</button>
+          <hr class="separator w-100">
+          <div class="signup-info-wrapper">
+            <p class="light-gray fs-14 text-center py-25">Don't have an account? <span class="secondary-class">Sign up</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
